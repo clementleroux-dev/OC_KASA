@@ -1,8 +1,27 @@
-import { Component } from "react";
-import RouteConfig from "./Routes";
+import React from "react";
+import Navbar from "./components/Navbar/Navbar.component";
+import Footer from "./components/Footer/Footer.component";
+import Home from "./pages/Home";
+import Accommodation from "./pages/Accommodation";
+import Error from "./pages/Error";
+import About from "./pages/About";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import "./app.scss";
 
-const App = () => {
-  return <RouteConfig />;
-};
+function App() {
+  return (
+    <BrowserRouter>
+      <Navbar />
+      <Routes>
+        <Route index element={<Home />} />
+        <Route path="/house/:id" element={<Accommodation />} />
+        <Route path="/error" element={<Error />} />
+        <Route path="/about" element={<About />} />
+        <Route path="*" element={<Error />} />
+      </Routes>
+      <Footer />
+    </BrowserRouter>
+  );
+}
 
 export default App;
