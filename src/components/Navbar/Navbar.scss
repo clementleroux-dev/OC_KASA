@@ -1,0 +1,22 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 3em;
+  margin-bottom: 3.5em;
+  &-links__container {
+    display: flex;
+    align-items: flex-end;
+    text-align: right;
+  }
+  &-links__link {
+    margin-left: 2em;
+    color: #ff6060;
+    font-size: 1.5em;
+    line-height: 142.6%;
+
+    &:hover {
+      text-decoration-line: underline;
+    }
+  }
+}
