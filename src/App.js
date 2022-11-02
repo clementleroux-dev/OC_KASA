@@ -12,17 +12,19 @@ function App() {
   return (
     <BrowserRouter>
       <Navbar />
+      <Routes>
+        <Route index element={<Home />} />
+      </Routes>
       <Footer />
     </BrowserRouter>
   );
 }
 
 export default App;
-// <Routes>
-//         <Route index element={<Home />} />
+//
 //         <Route path="/house/:id" element={<Accommodation />} />
 //         <Route path="/error" element={<Error />} />
 //         <Route path="/about" element={<About />} />
 //         <Route path="*" element={<Error />} />
-//       </Routes>
+//
 //
