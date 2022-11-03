@@ -2,7 +2,7 @@ import Data from "../../data/logements.json";
 import { Link } from "react-router-dom";
 import "./Cards.scss";
 
-function Cards() {
+const Cards = () => {
   return (
     <section className="home-cards__container">
       {Data.map((el) => {
@@ -19,6 +19,6 @@ function Cards() {
       })}
     </section>
   );
-}
+};
 
 export default Cards;

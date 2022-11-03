@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar/Navbar.component";
 import Footer from "./components/Footer/Footer.component";
 import Home from "./pages/Home";
 import Accommodation from "./pages/Accommodation";
-import Error from "./pages/Error";
+import ErrorLink from "./pages/Error";
 import About from "./pages/About";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./app.scss";
@@ -16,6 +16,8 @@ function App() {
         <Route index element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/accommodation/:id" element={<Accommodation />} />
+        <Route path="/error" element={<ErrorLink />} />
+        <Route path="/*" element={<ErrorLink />} />
       </Routes>
       <Footer />
     </BrowserRouter>
@@ -23,10 +25,3 @@ function App() {
 }
 
 export default App;
-//
-//
-//         <Route path="/error" element={<Error />} />
-//
-//         <Route path="*" element={<Error />} />
-//
-//

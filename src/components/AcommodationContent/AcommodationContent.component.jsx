@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import { VscStarFull } from "react-icons/vsc";
 import "./AcommodationContent.scss";
 
-function AccommodationContent({ data }) {
+const AccommodationContent = ({ data }) => {
   //use ID in URL
   const { id } = useParams();
   // Find data corresponding with ID
@@ -48,6 +48,6 @@ function AccommodationContent({ data }) {
       </div>
     </section>
   );
-}
+};
 
 export default AccommodationContent;

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Carousel.scss";
 import { MdChevronLeft, MdChevronRight } from "react-icons/md";
 
-function Carousel({ pictures }) {
+const Carousel = ({ pictures }) => {
   const [current, setCurrent] = useState(0);
   const length = pictures.length;
 
@@ -27,6 +27,6 @@ function Carousel({ pictures }) {
       </MdChevronRight>
     </section>
   );
-}
+};
 
 export default Carousel;
