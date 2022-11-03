@@ -1,0 +1,37 @@
+.collapse {
+  &__item {
+    background: #f6f6f6;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    &__header {
+      color: #fff;
+      background: #ff6060;
+      border-radius: 5px;
+      padding: 0 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      cursor: pointer;
+      font-size: 1.2em;
+      span {
+        font-size: 1.8rem;
+      }
+    }
+  }
+  &-content {
+    color: #ff6060;
+    display: none;
+    overflow: hidden;
+    max-height: 0;
+    &__show {
+      padding: 1rem;
+      color: #ff6060;
+      text-align: justify;
+    }
+  }
+}
+
+.collapse-about__container {
+  margin: auto;
+  width: 80%;
+}

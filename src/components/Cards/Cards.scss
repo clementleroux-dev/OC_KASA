@@ -27,6 +27,7 @@
       height: 100%;
     }
     &:after {
+      border-radius: 10px;
       height: 100%;
       content: "";
       position: absolute;
@@ -48,9 +49,6 @@
     bottom: 0.5rem;
     left: 0.5rem;
     color: #ffffff;
-    font-family: "Montserrat", sans-serif;
-    font-style: normal;
-    font-weight: 500;
     font-size: 1.1em;
     line-height: 142.6%;
     z-index: 1;
