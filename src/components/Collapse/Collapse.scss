@@ -1,9 +1,9 @@
 .collapse {
   &__item {
-    background: #f6f6f6;
     border-radius: 10px;
     margin-bottom: 2rem;
     &__header {
+      height: 50px;
       color: #fff;
       background: #ff6060;
       border-radius: 5px;
@@ -19,11 +19,9 @@
     }
   }
   &-content {
-    color: #ff6060;
     display: none;
-    overflow: hidden;
-    max-height: 0;
     &__show {
+      background: #f6f6f6;
       padding: 1rem;
       color: #ff6060;
       text-align: justify;
@@ -34,4 +32,14 @@
 .collapse-about__container {
   margin: auto;
   width: 80%;
+}
+
+.collapse-accomodation__container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 70px;
+  .collapse__item {
+    width: 50%;
+  }
 }

@@ -20,7 +20,6 @@ const Collapse = ({ title, children }) => {
           )}
         </span>
       </div>
-
       <div className={open ? "collapse-content__show" : "collapse-content"}>
         {children}
       </div>

@@ -15,6 +15,7 @@ function App() {
       <Routes>
         <Route index element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/accommodation/:id" element={<Accommodation />} />
       </Routes>
       <Footer />
     </BrowserRouter>
@@ -23,7 +24,7 @@ function App() {
 
 export default App;
 //
-//         <Route path="/house/:id" element={<Accommodation />} />
+//
 //         <Route path="/error" element={<Error />} />
 //
 //         <Route path="*" element={<Error />} />
