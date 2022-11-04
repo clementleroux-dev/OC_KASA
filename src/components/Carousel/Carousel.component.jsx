@@ -19,10 +19,17 @@ const Carousel = ({ pictures }) => {
         className="carousel__img"
         alt="accommodation"
       ></img>
-      <MdChevronLeft onClick={prev} className="carousel__chevron left ">
+      <MdChevronLeft
+        onClick={prev}
+        className={`carousel__chevron left ${length <= 1 ? "hidden" : ""}`}
+      >
         Prev
       </MdChevronLeft>
-      <MdChevronRight onClick={next} className="carousel__chevron right">
+      <MdChevronRight
+        onClick={next}
+        className={`carousel__chevron right ${length <= 1 ? "hidden" : ""}`}
+        hidden={length > 1 ? "hidden" : ""}
+      >
         Next
       </MdChevronRight>
     </section>
