@@ -47,11 +47,22 @@
   &__title {
     position: absolute;
     bottom: 0.5rem;
-    left: 0.5rem;
+    left: 0.2rem;
     color: #ffffff;
-    font-size: 1.1em;
+    font-size: 1.3em;
+    margin: 5px;
     line-height: 142.6%;
     z-index: 1;
-    overflow-wrap: break-word;
+    word-wrap: break-word;
+  }
+}
+
+// MEDIA QUERIES
+@media (max-width: 769px) {
+  .home-cards {
+    &__card {
+      flex: none;
+      width: 100%;
+    }
   }
 }

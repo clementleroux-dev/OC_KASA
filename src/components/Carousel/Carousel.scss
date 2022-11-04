@@ -21,11 +21,30 @@
   }
 }
 .left {
-  left: -30px;
+  left: -3%;
   top: 30%;
 }
 
 .right {
-  right: -30px;
+  right: -3%;
   top: 30%;
+}
+
+// MEDIA QUERIES
+@media (max-width: 769px) {
+  .carousel {
+    &__img {
+      height: 280px;
+    }
+    &__chevron {
+      font-size: 4em;
+    }
+  }
+  .left {
+    top: 42%;
+  }
+
+  .right {
+    top: 42%;
+  }
 }

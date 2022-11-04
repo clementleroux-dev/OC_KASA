@@ -6,7 +6,7 @@ import Banner from "../components/Banner/Banner.component";
 const Home = () => {
   return (
     <main>
-      <Banner info={ImgHomeBanner} text="Chez vous, partout et ailleurs" />
+      <Banner imghome={ImgHomeBanner} text="Chez vous, partout et ailleurs" />
       <Cards />
     </main>
   );

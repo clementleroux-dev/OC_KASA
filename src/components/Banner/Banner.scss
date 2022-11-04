@@ -1,19 +1,26 @@
 .banner {
   background-color: rgba(0, 0, 0, 0.3);
   background-blend-mode: darken;
-  background-size: 100% 100%;
+  background-repeat: no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 12rem;
+  min-height: 200px;
   border-radius: 25px;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
-
+  margin-bottom: 2em;
+  margin-top: 2em;
+  background-size: 100% 100%;
   &__title {
+    margin: 0 16px;
     color: #ffffff;
     font-weight: 500;
-    font-size: 2.5rem;
+    font-size: 2em;
+  }
+}
+//MEDIA QUERIES
+@media (max-width: 769px) {
+  .banner-about {
+    min-height: 223px;
   }
 }

@@ -1,6 +1,6 @@
-import React from "react";
 import "./Collapse.scss";
 import { useState } from "react";
+import { BiChevronDown, BiChevronUp } from "react-icons/bi";
 
 const Collapse = ({ title, children }) => {
   const [open, setOpen] = useState(false);
@@ -14,9 +14,9 @@ const Collapse = ({ title, children }) => {
         <h2>{title}</h2>
         <span>
           {open ? (
-            <i className="fa-solid fa-chevron-up fa-2xs " />
+            <BiChevronUp className="chevron" />
           ) : (
-            <i className="fa-solid fa-chevron-down fa-2xs " />
+            <BiChevronDown className="chevron" />
           )}
         </span>
       </div>

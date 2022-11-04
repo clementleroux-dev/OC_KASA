@@ -7,7 +7,7 @@
       color: #fff;
       background: #ff6060;
       border-radius: 5px;
-      padding: 0 20px;
+      padding: 0 10px;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -41,5 +41,24 @@
   gap: 70px;
   .collapse__item {
     width: 50%;
+  }
+}
+.chevron {
+  font-size: 1.3em;
+  display: flex;
+  align-items: center;
+}
+//MEDIA QUERIES
+@media (max-width: 769px) {
+  .collapse-accomodation__container {
+    flex-direction: column;
+    gap: 5px;
+    .collapse__item {
+      width: 100%;
+    }
+  }
+  .collapse-about__container {
+    margin: auto;
+    width: 100%;
   }
 }

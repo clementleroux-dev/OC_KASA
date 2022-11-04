@@ -2,21 +2,36 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 3em;
-  margin-bottom: 3.5em;
+  margin-top: 2em;
+  margin-bottom: 2em;
   &-links__container {
     display: flex;
     align-items: flex-end;
     text-align: right;
   }
   &-links__link {
-    margin-left: 2em;
+    margin-left: 1em;
     color: #ff6060;
-    font-size: 1.5em;
+    font-size: 1.3em;
     line-height: 142.6%;
 
     &:hover {
       text-decoration-line: underline;
+    }
+  }
+  &-logo {
+    width: 15em;
+  }
+}
+
+// MEDIA QUERIES
+@media (max-width: 769px) {
+  .nav {
+    &-logo {
+      width: 9em;
+    }
+    &-links__link {
+      font-size: 1.1em;
     }
   }
 }
