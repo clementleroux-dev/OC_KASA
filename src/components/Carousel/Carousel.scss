@@ -19,6 +19,11 @@
     cursor: pointer;
     position: absolute;
   }
+  &__count {
+    color: white;
+    position: absolute;
+    bottom: 10px;
+  }
   .hidden {
     display: none;
   }

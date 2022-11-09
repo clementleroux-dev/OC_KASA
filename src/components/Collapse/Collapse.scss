@@ -2,6 +2,7 @@
   &__item {
     border-radius: 10px;
     margin-bottom: 2rem;
+
     &__header {
       height: 50px;
       color: #fff;
@@ -19,10 +20,16 @@
     }
   }
   &-content {
-    display: none;
+    max-height: 0;
+    color: white;
+    overflow: hidden;
+    transition: max-height 0.1s cubic-bezier(00, 1, 0, 1);
+
     &__show {
+      height: 80%;
       background: #f6f6f6;
-      padding: 1rem;
+      padding: 20px;
+      transition: max-height 0.1s ease-in-out;
       color: #ff6060;
       text-align: justify;
     }

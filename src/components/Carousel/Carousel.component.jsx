@@ -32,6 +32,9 @@ const Carousel = ({ pictures }) => {
       >
         Next
       </MdChevronRight>
+      <span className="carousel__count">
+        {current + 1}/{length}
+      </span>
     </section>
   );
 };
