@@ -7,13 +7,15 @@ const AccommodationContent = ({ data }) => {
   const { id } = useParams();
   // Find data corresponding with ID
   const accommodation = data.find((item) => item.id === id);
+  //create object properties of colors stars
   const rateColor = {
     red: "#ff6060",
     grey: "#E3E3E3",
   };
-
+  //initiate array rating
   const rate = [0, 0, 0, 0, 0];
 
+  //maps tags + display info host + colors rating with index map from rating
   return (
     <section className="lodge__container">
       <div className="lodge__body">

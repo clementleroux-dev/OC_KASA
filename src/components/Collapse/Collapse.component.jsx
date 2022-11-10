@@ -2,6 +2,7 @@ import "./Collapse.scss";
 import { useState } from "react";
 import { BiChevronDown, BiChevronUp } from "react-icons/bi";
 
+//set open on false, and set toggle
 const Collapse = ({ title, children }) => {
   const [open, setOpen] = useState(false);
   const toggle = () => {

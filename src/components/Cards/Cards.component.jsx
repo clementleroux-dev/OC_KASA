@@ -2,6 +2,7 @@ import Data from "../../data/logements.json";
 import { Link } from "react-router-dom";
 import "./Cards.scss";
 
+//map data and link
 const Cards = () => {
   return (
     <section className="home-cards__container">

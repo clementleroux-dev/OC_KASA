@@ -2,16 +2,19 @@ import React, { useState } from "react";
 import "./Carousel.scss";
 import { MdChevronLeft, MdChevronRight } from "react-icons/md";
 
+//initialize state of current picture to 0
 const Carousel = ({ pictures }) => {
   const [current, setCurrent] = useState(0);
   const length = pictures.length;
 
+  //change state
   const prev = () => {
     setCurrent(current === 0 ? length - 1 : current - 1);
   };
   const next = () => {
     setCurrent(current === length - 1 ? 0 : current + 1);
   };
+
   return (
     <section className="carousel">
       <img

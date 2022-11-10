@@ -1,3 +1,4 @@
+//BANNER
 .banner {
   background-color: rgba(0, 0, 0, 0.3);
   background-blend-mode: darken;
@@ -18,7 +19,7 @@
     font-size: 2em;
   }
 }
-//MEDIA QUERIES
+
 @media (max-width: 769px) {
   .banner__title {
     font-size: 1.5em;

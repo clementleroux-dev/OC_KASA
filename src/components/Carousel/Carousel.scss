@@ -1,3 +1,4 @@
+//CARROUSEL
 .carousel {
   display: flex;
   justify-content: center;
@@ -41,7 +42,6 @@
   top: 30%;
 }
 
-// MEDIA QUERIES
 @media (max-width: 769px) {
   .carousel {
     &__img {

@@ -1,3 +1,4 @@
+//FOOTER
 .footer {
   margin-top: 3em;
   padding: 3em;
@@ -22,7 +23,6 @@
   }
 }
 
-// MEDIA QUERIES
 @media (max-width: 769px) {
   .footer {
     &__logo {

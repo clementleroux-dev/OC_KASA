@@ -4,6 +4,7 @@ import "../../components/Banner/Banner.scss";
 import "./About.scss";
 import Banner from "../../components/Banner/Banner.component";
 
+//map data for collapse
 const About = () => {
   return (
     <main>
