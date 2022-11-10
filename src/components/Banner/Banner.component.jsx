@@ -1,22 +1,8 @@
-import React from "react";
 import "./Banner.scss";
 
-const Banner = ({ imghome, imgsmall, imgxl, text, page }) => {
-  const dimensions = window.innerWidth;
-
+const Banner = ({ text, page }) => {
   return (
-    <section
-      className={`banner ${page}`}
-      style={{
-        backgroundImage: `url(${
-          page !== "banner-about"
-            ? imghome
-            : dimensions > 769
-            ? imgxl
-            : imgsmall
-        })`,
-      }}
-    >
+    <section className={`banner banner-${page}`}>
       <h1 className="banner__title">{text}</h1>
     </section>
   );

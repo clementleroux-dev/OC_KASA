@@ -1,9 +1,10 @@
 .nav {
+  min-height: 5vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 2em;
-  margin-bottom: 2em;
+  margin-top: 1.5em;
+  margin-bottom: 0;
   &-links__container {
     display: flex;
     align-items: flex-end;
@@ -13,14 +14,13 @@
     margin-left: 1em;
     color: #ff6060;
     font-size: 1.3em;
-    line-height: 142.6%;
 
     &:hover {
       text-decoration-line: underline;
     }
   }
   &-logo {
-    width: 13em;
+    width: 10em;
   }
 }
 

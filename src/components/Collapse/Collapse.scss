@@ -1,24 +1,20 @@
 .collapse {
-  &__item {
-    border-radius: 10px;
-    margin-bottom: 2rem;
-
-    &__header {
-      height: 50px;
-      color: #fff;
-      background: #ff6060;
-      border-radius: 5px;
-      padding: 0 10px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      cursor: pointer;
-      font-size: 1.2em;
-      span {
-        font-size: 1.8rem;
-      }
+  &__item__header {
+    height: 52px;
+    color: #fff;
+    background: #ff6060;
+    border-radius: 5px;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    font-size: 1.1em;
+    span {
+      font-size: 1.8rem;
     }
   }
+
   &-content {
     max-height: 0;
     color: white;
@@ -31,41 +27,12 @@
       padding: 20px;
       transition: max-height 0.1s ease-in-out;
       color: #ff6060;
-      text-align: justify;
     }
   }
 }
 
-.collapse-about__container {
-  margin: auto;
-  width: 80%;
-}
-
-.collapse-accomodation__container {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  gap: 70px;
-  .collapse__item {
-    width: 50%;
-  }
-}
 .chevron {
   font-size: 1.3em;
   display: flex;
   align-items: center;
-}
-//MEDIA QUERIES
-@media (max-width: 769px) {
-  .collapse-accomodation__container {
-    flex-direction: column;
-    gap: 5px;
-    .collapse__item {
-      width: 100%;
-    }
-  }
-  .collapse-about__container {
-    margin: auto;
-    width: 100%;
-  }
 }

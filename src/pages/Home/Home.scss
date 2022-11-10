@@ -1,0 +1,11 @@
+//BANNER
+.banner-home {
+  background-image: url("../../images/banner-home.png");
+}
+
+@media (max-width: 769px) {
+  .banner-home {
+    height: 111px;
+    border-radius: 10px;
+  }
+}

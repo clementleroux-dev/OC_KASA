@@ -1,10 +1,10 @@
 import React from "react";
 import Navbar from "./components/Navbar/Navbar.component";
 import Footer from "./components/Footer/Footer.component";
-import Home from "./pages/Home";
-import Accommodation from "./pages/Accommodation";
-import ErrorLink from "./pages/Error";
-import About from "./pages/About";
+import Home from "./pages/Home/Home";
+import Accommodation from "./pages/Accommodation/Accommodation";
+import ErrorLink from "./pages/Error/Error";
+import About from "./pages/About/About";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./app.scss";
 

@@ -1,7 +1,7 @@
 .footer {
-  margin-top: 2em;
-  padding: 2em;
-  height: 20%;
+  margin-top: 3em;
+  padding: 3em;
+  min-height: 20vh;
   width: 100%;
   background-color: #000;
   display: flex;
@@ -11,7 +11,7 @@
 
   &__logo {
     img {
-      width: 13em;
+      width: 10em;
     }
   }
   p {
@@ -31,7 +31,7 @@
       }
     }
     p {
-      font-size: 0.8em;
+      font-size: 1.2em;
     }
   }
 }

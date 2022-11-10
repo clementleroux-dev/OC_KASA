@@ -1,20 +1,25 @@
+//GALERIE
 .home-cards {
+  //CONTAINER
   &__container {
+    height: 829px;
+    overflow: scroll;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     background-color: #f6f6f6;
     border-radius: 25px;
-    padding: 2em;
+    padding: 50px 56px;
     &:after {
       content: "";
       flex: 0 1 calc(33% - 2em);
     }
   }
+  //CARD
   &__card {
     min-height: 250px;
+    margin-bottom: 50px;
     position: relative;
-    margin-top: 2em;
     border: 0px;
     padding: 0px;
     border-radius: 10px;
@@ -60,9 +65,15 @@
 // MEDIA QUERIES
 @media (max-width: 769px) {
   .home-cards {
+    &__container {
+      padding: 0px;
+      background-color: white;
+    }
     &__card {
+      margin-bottom: 20px;
       flex: none;
       width: 100%;
+      max-height: 255px;
     }
   }
 }

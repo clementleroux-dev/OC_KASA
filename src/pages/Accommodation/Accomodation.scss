@@ -1,0 +1,19 @@
+.collapse-accomodation__container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 56px;
+  .collapse__item {
+    width: 50%;
+  }
+}
+
+@media (max-width: 769px) {
+  .collapse-accomodation__container {
+    flex-direction: column;
+    gap: 20.7px;
+    .collapse__item {
+      width: 100%;
+    }
+  }
+}

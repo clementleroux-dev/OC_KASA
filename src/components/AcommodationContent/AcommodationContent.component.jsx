@@ -1,4 +1,3 @@
-// import Data from "../";
 import { useParams } from "react-router-dom";
 import { VscStarFull } from "react-icons/vsc";
 import "./AcommodationContent.scss";

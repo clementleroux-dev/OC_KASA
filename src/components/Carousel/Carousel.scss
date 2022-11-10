@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 2rem auto;
+  margin: 1rem auto;
   border-radius: 25px;
   position: relative;
 
@@ -27,6 +27,9 @@
   .hidden {
     display: none;
   }
+  span:focus {
+    background-color: transparent;
+  }
 }
 .left {
   left: -3%;
@@ -42,17 +45,17 @@
 @media (max-width: 769px) {
   .carousel {
     &__img {
-      height: 280px;
+      height: 255px;
     }
     &__chevron {
       font-size: 4em;
     }
   }
   .left {
-    top: 42%;
+    top: 38%;
   }
 
   .right {
-    top: 42%;
+    top: 38%;
   }
 }

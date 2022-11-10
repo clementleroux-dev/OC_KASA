@@ -1,8 +1,9 @@
-import Data from "../data/logements.json";
+import Data from "../../data/logements.json";
 import { useParams, Navigate } from "react-router-dom";
-import Carousel from "../components/Carousel/Carousel.component";
-import AcommodationContent from "../components/AcommodationContent/AcommodationContent.component";
-import Collapse from "../components/Collapse/Collapse.component";
+import Carousel from "../../components/Carousel/Carousel.component";
+import AcommodationContent from "../../components/AcommodationContent/AcommodationContent.component";
+import Collapse from "../../components/Collapse/Collapse.component";
+import "./Accomodation.scss";
 
 function Accommodation() {
   //use ID in URL
