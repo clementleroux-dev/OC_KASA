@@ -30,10 +30,12 @@
     flex-direction: row;
     flex-wrap: wrap;
     color: white;
+    margin: 20px 10px 24px 0;
 
     div {
-      margin: 20px 10px 24px 0;
+      margin-right: 10px;
       height: 25px;
+      margin-bottom: 10px;
       background: #ff6060;
       padding: 0px 20px;
       border-radius: 10px;
@@ -63,10 +65,7 @@
         margin-top: 5px;
       }
       &__tags {
-        div {
-          margin: 10px 10px 10px 0;
-        }
-
+        margin: 10px 10px 10px 0;
         font-size: 0.7em;
       }
     }
@@ -82,7 +81,7 @@
   &-profil {
     display: flex;
     align-items: center;
-    justify-content: end;
+    justify-content: flex-end;
     &__name {
       text-align: end;
       margin-right: 8px;
