@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/OC_KASA/static/css/main.b9141277.css",
+    "main.js": "/OC_KASA/static/js/main.2bc3636c.js",
+    "static/js/787.0ce615c0.chunk.js": "/OC_KASA/static/js/787.0ce615c0.chunk.js",
+    "static/media/banner-about-xl.png": "/OC_KASA/static/media/banner-about-xl.aaf54aed142bb37304de.png",
+    "static/media/banner-home.png": "/OC_KASA/static/media/banner-home.8aa7f3bcc1fb740591f7.png",
+    "static/media/banner-about-small.png": "/OC_KASA/static/media/banner-about-small.b5c61a8ac7c45d1ae061.png",
+    "index.html": "/OC_KASA/index.html",
+    "main.b9141277.css.map": "/OC_KASA/static/css/main.b9141277.css.map",
+    "main.2bc3636c.js.map": "/OC_KASA/static/js/main.2bc3636c.js.map",
+    "787.0ce615c0.chunk.js.map": "/OC_KASA/static/js/787.0ce615c0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b9141277.css",
+    "static/js/main.2bc3636c.js"
+  ]
+}

@@ -15,8 +15,8 @@
     transform-origin: left 50%;
   }
   &__chevron {
-    font-size: 10em;
-    color: white;
+    height: 80px;
+    fill: white;
     cursor: pointer;
     position: absolute;
   }
@@ -33,13 +33,13 @@
   }
 }
 .left {
-  left: -3%;
-  top: 30%;
+  left: 3%;
+  top: 40%;
 }
 
 .right {
-  right: -3%;
-  top: 30%;
+  right: 3%;
+  top: 40%;
 }
 
 @media (max-width: 769px) {
@@ -48,14 +48,17 @@
       height: 255px;
     }
     &__chevron {
-      font-size: 4em;
+      height: 50px;
+      fill: white;
     }
   }
   .left {
     top: 38%;
+    left: 2%;
   }
 
   .right {
     top: 38%;
+    right: 2%;
   }
 }

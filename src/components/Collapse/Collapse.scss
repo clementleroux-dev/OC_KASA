@@ -33,9 +33,10 @@
 }
 
 .chevron {
-  font-size: 1.3em;
+  height: 0.8em;
   display: flex;
   align-items: center;
+  fill: white;
 }
 
 @media (max-width: 769px) {
